@@ -3,13 +3,14 @@
  */
 
 /**
- * @author CRM
+ * @author Dev1
  *
  */
 public class HelloWorld {
 
 	/**
-	 * @param args argument
+	 * @author Dev2
+	 * @param args paramètres du programme
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
