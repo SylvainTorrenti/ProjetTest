@@ -3,8 +3,8 @@
  */
 
 /**
- * @author Dev1
- *
+ * @author sylvain torrenti
+ * @version 1.0
  */
 public class HelloWorld {
 
