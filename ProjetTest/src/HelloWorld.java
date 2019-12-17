@@ -18,5 +18,6 @@ public class HelloWorld {
 		// 1er ajout
 		// 2eme ajout
 		// 3eme ajout
+		System.out.println("coucou");
 } 
 }
