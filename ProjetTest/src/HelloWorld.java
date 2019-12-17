@@ -15,10 +15,9 @@ public class HelloWorld {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World");
-		// 1er ajout
-		// 2eme ajout
-		// 3eme ajout
+		String nom = "Sylvain";
+		String ajout = " a réussi"; 
+		System.out.println("Hello World " + nom + ajout);
 		System.out.println("coucou");
 		System.out.println("dernier message");
 	} 
