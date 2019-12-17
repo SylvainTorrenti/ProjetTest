@@ -3,7 +3,7 @@
  */
 
 /**
- * @author sylvain torrenti
+ * @author Sylvain Torrenti
  * @version 1.0
  * @since 17/12/19
  */
