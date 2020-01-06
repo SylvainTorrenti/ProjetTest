@@ -50,7 +50,16 @@ public class Test {
 		String maChaine3 = maChaine + maChaine2;
 		System.out.println(maChaine3);
 		
-	}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		}
 
 	
 }
