@@ -7,7 +7,7 @@ public class Exercice112 {
 		char reponse = 'O';
 		float resultat;
 
-		while (reponse == 'O' && reponse != 'N') {
+		while (reponse == 'O') {
 
 			System.out.println("veuillez saisir un nombre :");
 			float x = sc.nextFloat();
