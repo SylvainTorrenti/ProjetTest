@@ -14,7 +14,6 @@ public class Exercice112 {
 			System.out.println("veuillez saisir un nombre :");
 			float y = sc.nextFloat();
 
-			
 			resultat = (x + y) / 2;
 			System.out.println("La moyenne est de " + resultat);
 
@@ -26,6 +25,3 @@ public class Exercice112 {
 		System.out.println("Au revoir…");
 	}
 }
-
-
-
