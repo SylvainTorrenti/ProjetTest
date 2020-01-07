@@ -9,7 +9,7 @@ public class Exercice113 {
 		int somme = 0;
 		resultat = 0;
 
-		while (reponse == 'O' && reponse != 'N') {
+		while (reponse == 'O') {
 
 			System.out.println("veuillez saisir un nombre :");
 			float x = sc.nextFloat();
