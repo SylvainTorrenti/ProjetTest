@@ -16,5 +16,5 @@ public class TestContatenationTexte {
 //		System.out.println(nomComplet2);
 
 //	}
-
+//
 }
