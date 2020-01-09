@@ -16,8 +16,8 @@ public class StringTest {
 	public static void main(String[] args) {
 		String texte;
 		texte = "hello";
-		System.out.println (texte);
-		
+		System.out.println(texte);
+
 	}
 
 }

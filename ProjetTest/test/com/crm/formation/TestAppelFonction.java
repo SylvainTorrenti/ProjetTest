@@ -10,9 +10,9 @@ public class TestAppelFonction {
 
 		System.out.println("Veuillez inserer le rayon:");
 		double rayon = sc.nextDouble();
-		surface = Math.pow(rayon, 2)*Math.PI;
+		surface = Math.pow(rayon, 2) * Math.PI;
 		System.out.println(surface);
-		
+
 	}
 
 }
