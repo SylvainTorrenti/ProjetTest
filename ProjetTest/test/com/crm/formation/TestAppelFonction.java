@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class TestAppelFonction {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		double surface = 0;
+		double surface;
 
-		System.out.println("Veuillez inserer le rayon:");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("veuillez saisir le rayon :");
 		double rayon = sc.nextDouble();
-		surface = Math.pow(rayon, 2) * Math.PI;
-		System.out.println(surface);
+		surface = Utils2.surface2(rayon);
+
+		System.out.println("L'air du cercle est de: " + surface);
 
 	}
 
