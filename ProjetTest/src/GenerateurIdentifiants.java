@@ -1,4 +1,8 @@
+import java.awt.BorderLayout;
+import java.awt.Component;
 import java.util.Scanner;
+
+import javax.swing.JFrame;
 
 /**
  * 
@@ -16,7 +20,8 @@ public class GenerateurIdentifiants {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("veuillez saisir votre prÃ©nom :");
+
+		System.out.println("veuillez saisir votre prénom :");
 		String prenom = sc.nextLine();
 		System.out.println("veuillez saisir votre nom :");
 		String nom = sc.nextLine();

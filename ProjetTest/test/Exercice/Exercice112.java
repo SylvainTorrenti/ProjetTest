@@ -18,7 +18,7 @@ public class Exercice112 {
 			resultat = (x + y) / 2;
 			System.out.println("La moyenne est de " + resultat);
 
-			System.out.println("Voulez-vous rÃ©essayer ? (O/N)");
+			System.out.println("Voulez-vous réessayer ? (O/N)");
 			Scanner sc2 = new Scanner(System.in);
 			reponse = sc2.nextLine().charAt(0);
 

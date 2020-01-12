@@ -1,4 +1,4 @@
-package com.crm.formation;
+package exercicePerso;
 
 import java.util.Scanner;
 
