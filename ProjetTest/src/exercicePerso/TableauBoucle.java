@@ -13,8 +13,8 @@ public class TableauBoucle {
 		char reponse = 'O';
 		Array ts[] = null;
 		System.out.println("Entrez votre nom et prénom: ");
-		String n = sc.next();
-		ts[0] = n;
+		String nometprenom = sc.next();
+		ts[0] = nometprenom;
 		System.out.println(ts);
 		while (reponse == 'O') {
 			
