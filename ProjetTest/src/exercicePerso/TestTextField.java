@@ -1,18 +1,19 @@
 package exercicePerso;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class PourGabi extends JFrame implements ActionListener {
+public class TestTextField extends JFrame implements ActionListener {
 
 	private JLabel label;
 	private JButton button;
 	private JTextField textfield;
 	String userWord = "";
 
-	public PourGabi() {
+	public TestTextField() {
 		setLayout(new FlowLayout());
 		setLocationRelativeTo(null);
 
@@ -28,7 +29,7 @@ public class PourGabi extends JFrame implements ActionListener {
 	}
 
 	public static void main(String[] args) {
-		PourGabi test = new PourGabi();
+		TestTextField test = new TestTextField();
 		test.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		test.setVisible(true);
 		test.setSize(500, 125);
