@@ -45,15 +45,19 @@ public class StringTest {
 //		
 //		Suppression des blancs
 		String str6 = str.replace(" ", "");
-		System.out.println(str6);
+//		System.out.println(str6);
 		
+//		
+//		Comparaison de chaines
+		String chaine1="test";
+		String chaine2="TEST";
+		System.out.println(chaine1.equalsIgnoreCase(chaine2));
+		System.out.println(chaine1.equals(chaine2));
 		
-		
-		
-		Scanner sc = new Scanner(System.in);
-		sc.hasNext();
-		
-		Math.addExact(1, 2);
+//		Scanner sc = new Scanner(System.in);
+//		sc.hasNext();
+//		
+//		Math.addExact(1, 2);
 
 	}
 

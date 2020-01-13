@@ -15,6 +15,7 @@ public class TestFramAvecWindows extends JFrame implements ActionListener {
 
 	public TestFramAvecWindows() {
 		setLayout(new FlowLayout());
+		setLocationRelativeTo(null);
 
 		label = new JLabel("Ca marche!");
 		add(label);
