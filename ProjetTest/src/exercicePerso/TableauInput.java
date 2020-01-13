@@ -4,7 +4,7 @@
 package exercicePerso;
 import java.util.Scanner;
 /**
- * @author CRM
+ * @author Sylvain Torrenti
  *
  */
 public class TableauInput {
@@ -19,20 +19,29 @@ public class TableauInput {
 
 		String arr[] = new String[n];
 
-		System.out.println("Entrez votre Nom et Prenom");
+		System.out.println("Entrez votre Nom");
+		String nom = s.nextLine();
+		arr[0] = nom;
+		
+		System.out.println("Entrez votre Prénom");
+		String prenom = s.nextLine();
+		arr[1] = prenom;		
+		
 
-		for (int i = 0; i < n; i++) {// for reading array
-			String a = s.nextLine();
-			
-			arr[i] = a;
-			
-		}
+//		for (int i = 0; i < n; i++) {// for reading array
+//			String a = s.nextLine();
+//			System.out.println("valeur de a : " + a);
+//			arr[i] = a;
+//			
+//		}
 
 		for (String i : arr) { // for printing array
 
 			System.out.println(i);
 
 		}
+		
+		s.close();
 
 	}
 

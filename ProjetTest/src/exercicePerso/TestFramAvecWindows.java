@@ -1,6 +1,5 @@
 package exercicePerso;
 
-import java.util.Scanner;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

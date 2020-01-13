@@ -22,18 +22,22 @@ public class ExerciceMaxNombre {
 		int nbr2 = sc.nextInt();
 		System.out.println("Entrez un 3eme nombre");
 		int nbr3 = sc.nextInt();
-		if (nbr1<nbr2) {
-			if (nbr2<nbr3) {
-				System.out.println("Le plus grand nombre est: "+nbr3);
-			} else { System.out.println("Le plus grand nombre est: "+nbr2);
-				
+		sc.close();
+		if (nbr1 < nbr2) {
+			if (nbr2 < nbr3) {
+				System.out.println("Le plus grand nombre est: " + nbr3);
+			} else {
+				System.out.println("Le plus grand nombre est: " + nbr2);
 			}
-		} else{ if(nbr1<nbr3) {
-			
-		}else { System.out.println("Le plus grand nombre est: "+nbr1);
-			
-		}
-			
+		} else {
+			if (nbr1 < nbr3) {
+				System.out.println("Le plus grand nombre est: " + nbr3);
+
+			} else {
+				System.out.println("Le plus grand nombre est: " + nbr1);
+
+			}
+
 		}
 	}
 

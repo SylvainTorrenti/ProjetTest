@@ -18,6 +18,7 @@ public class NombrePaire {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("veuillez saisir un nombre :");
 		int nombre = sc.nextInt();
+		sc.close();
 		if (nombre%2==0) {
 			System.out.println("Ce nombre est pair.");
 		} else {

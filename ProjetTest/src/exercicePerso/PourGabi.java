@@ -1,4 +1,5 @@
 package exercicePerso;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,7 +10,6 @@ public class PourGabi extends JFrame implements ActionListener {
 
 	private JLabel label;
 	private JButton button;
-	private JTextField textfield;
 	String userWord = "";
 
 	public PourGabi() {
@@ -18,9 +18,6 @@ public class PourGabi extends JFrame implements ActionListener {
 
 		label = new JLabel("Gabi est fort à lol!");
 		add(label);
-
-		textfield = new JTextField(15);
-		add(textfield);
 
 		button = new JButton("La vérité");
 		add(button);
