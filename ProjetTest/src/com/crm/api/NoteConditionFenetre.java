@@ -38,35 +38,35 @@ public class NoteConditionFenetre extends JFrame implements ActionListener {
 				NoteConditionFenetre test = new NoteConditionFenetre();
 				test.setVisible(true);
 				test.setSize(300, 80);
-				test.setTitle("Resultat");
+				test.setTitle("Resultat avec mention");
 				label.setText("Admis");
 			} else {
 				if (note < 12) {
 					NoteConditionFenetre test = new NoteConditionFenetre();
 					test.setVisible(true);
 					test.setSize(300, 80);
-					test.setTitle("Resultat");
+					test.setTitle("Resultat avec mention");
 					label.setText("Admis avec la mention B");
 				} else {
 					if (note < 14) {
 						NoteConditionFenetre test = new NoteConditionFenetre();
 						test.setVisible(true);
 						test.setSize(300, 80);
-						test.setTitle("Resultat");
+						test.setTitle("Resultat avec mention");
 						label.setText("Vous êtes admis avec la mention AB");
 					} else {
 						if (note < 16) {
 							NoteConditionFenetre test = new NoteConditionFenetre();
 							test.setVisible(true);
 							test.setSize(300, 80);
-							test.setTitle("Resultat");
+							test.setTitle("Resultat avec mention");
 							label.setText("Vous êtes admis avec la mention B");
 						} else {
 							if (note >= 16) {
 								NoteConditionFenetre test = new NoteConditionFenetre();
 								test.setVisible(true);
 								test.setSize(300, 80);
-								test.setTitle("Resultat");
+								test.setTitle("Resultat avec mention");
 								label.setText("Vous êtes admis avec la mention TB");
 							}
 						}
