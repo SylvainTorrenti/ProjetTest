@@ -18,9 +18,9 @@ public class TestFramAvecWindows extends JFrame implements ActionListener {
 
 		label = new JLabel("Ca marche!");
 		add(label);
+		
 
-		textfield = new JTextField(15);
-		add(textfield);
+		
 
 		button = new JButton("Appuie si tu l'ose!");
 		add(button);
@@ -38,6 +38,8 @@ public class TestFramAvecWindows extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == button) {
 			setTitle("Ca marche encore!");
+			label.setText("J'ai reussi!");
+			button.setText("Ca change aussi!");
 		}
 	}
 }
