@@ -8,14 +8,14 @@ public class CarréAvecEtoile {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Entrez la longueur:");
 		int longueur = sc.nextInt();
-		int i;
-		 (i = 0; i < longueur; i++) {
-			
+		int i = longueur;
+		sc.close();
+		do {
+
 			System.out.print("*");
-			System.out.println();
+			System.out.print("");
+			i--;
 
-
-		}
-
+		} while (i != 0);
 	}
 }
