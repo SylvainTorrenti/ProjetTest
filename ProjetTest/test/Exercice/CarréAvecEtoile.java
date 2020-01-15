@@ -9,7 +9,7 @@ public class CarréAvecEtoile {
 		System.out.println("Entrez la longueur:");
 		int longueur = sc.nextInt();
 		int i;
-		for (i = 0; i < longueur; i++) {
+		 (i = 0; i < longueur; i++) {
 			
 			System.out.print("*");
 			System.out.println();
