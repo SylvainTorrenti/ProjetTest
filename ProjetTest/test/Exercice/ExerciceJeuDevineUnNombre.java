@@ -27,7 +27,7 @@ public class ExerciceJeuDevineUnNombre {
 		}
 		while(nombre==resultat) {
 			System.out.println("Le bon nombre est bien 65");
-			System.out.println("vous avez fait "+ essai +"essais!");
+			System.out.println("vous avez fait "+ essai +" essais!");
 			break;
 		}
 		sc.close();	}
