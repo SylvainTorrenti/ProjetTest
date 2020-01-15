@@ -2,12 +2,17 @@ package Exercice;
 
 import java.util.Scanner;
 
-public class ExerciceJeuDevineUnNombre {
+public class JeuDevineTest {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int resultat = (int) (Math.random() * (100));
-		System.out.println("veuillez saisir un nombre compris entre 0 et 100 :");
+		System.out.println("Veuillez saisir un nombre compris entre 0 et 100 :");
+		 while (!sc.hasNextInt()) 
+		    {
+		        sc.nextLine();
+		        System.out.print("Un nombre entre 0 et 100 on a dit! Fripouille!");
+		    }
 		int nombre = sc.nextInt();
 		int essai = 1;
 
@@ -38,3 +43,4 @@ public class ExerciceJeuDevineUnNombre {
 
 	}
 }
+
