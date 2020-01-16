@@ -17,6 +17,14 @@ public class TriangleEtoile {
 				System.out.print("*");
 			System.out.println(" ");
 		}
+		for (i = longueur; i >= longueur; i++) {
+
+			for (j = i; j <= 0; j--)
+
+				System.out.print("*");
+			System.out.println(" ");
+			
+		}
 		System.out.print("\n");
 	}
 }
