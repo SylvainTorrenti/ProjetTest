@@ -38,5 +38,4 @@ public class PourGabi extends JFrame implements ActionListener {
 			label.setText("C'est pas vrai il est que gold...");
 		}
 	}
-
 }
