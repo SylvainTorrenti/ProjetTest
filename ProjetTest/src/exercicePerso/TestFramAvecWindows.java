@@ -10,7 +10,6 @@ public class TestFramAvecWindows extends JFrame implements ActionListener {
 
 	private JLabel label;
 	private JButton button;
-	private JTextField textfield;
 
 	public TestFramAvecWindows() {
 		setLayout(new FlowLayout());
@@ -18,9 +17,6 @@ public class TestFramAvecWindows extends JFrame implements ActionListener {
 
 		label = new JLabel("Ca marche!");
 		add(label);
-		
-
-		
 
 		button = new JButton("Appuie si tu l'ose!");
 		add(button);

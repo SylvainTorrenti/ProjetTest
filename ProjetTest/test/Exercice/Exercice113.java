@@ -19,6 +19,8 @@ public class Exercice113 {
 			System.out.println("Voulez-vous ajoutez un nombre ? (O/N)");
 			Scanner sc2 = new Scanner(System.in);
 			reponse = sc2.nextLine().charAt(0);
+			sc.close();
+			sc2.close();
 		}
 
 		moyenne = resultat / somme;

@@ -23,6 +23,7 @@ public class WrapperTest {
 		String nombre1 = sc.nextLine();
 		float f2 = Integer.parseInt(nombre1);
 		System.out.println(f2);
+		sc.close();
 		
 
 	}

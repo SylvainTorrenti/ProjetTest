@@ -1,8 +1,4 @@
-import java.awt.BorderLayout;
-import java.awt.Component;
 import java.util.Scanner;
-
-import javax.swing.JFrame;
 
 /**
  * 
@@ -18,13 +14,14 @@ public class GenerateurIdentifiants {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("veuillez saisir votre prénom :");
+		System.out.println("veuillez saisir votre prÃ©nom :");
 		String prenom = sc.nextLine();
 		System.out.println("veuillez saisir votre nom :");
 		String nom = sc.nextLine();
+		sc.close();
 
 		prenom = prenom.substring(0, 1).toUpperCase();
 		nom = nom.toUpperCase();

@@ -1,4 +1,5 @@
 package Exercice;
+
 import java.util.Scanner;
 
 public class Exercice13 {
@@ -16,7 +17,7 @@ public class Exercice13 {
 		angle = sc.nextFloat();
 		surface = (float) (3.14 * rayon * rayon * (angle / 360));
 		System.out.println("La surface est de:" + surface);
-
+		sc.close();
 	}
 
 }

@@ -18,12 +18,12 @@ public class TypePrimitifTest {
 		d = (float) c / 4;
 		texte = "Le resultat de c/4 est " + d;
 		System.out.println(texte);
-		b = ++b;
-		System.out.println(b);
-		b = ++b;
-		System.out.println(b);
-		b = --b;
-		System.out.println(b);
+//		b = ++b;
+//		System.out.println(b);
+//		b = ++b;
+//		System.out.println(b);
+//		b = --b;
+//		System.out.println(b);
 	}
 
 }

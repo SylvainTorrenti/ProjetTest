@@ -11,6 +11,7 @@ public class TestAppelFonction {
 		System.out.println("veuillez saisir le rayon :");
 		double rayon = sc.nextDouble();
 		surface = Utils2.surface2(rayon);
+		sc.close();
 
 		System.out.println("L'air du cercle est de: " + surface);
 

@@ -29,18 +29,18 @@ public class Test {
 		System.out.println(maVariableInt);
 
 		{
-			byte maVariableByte = 25;
-			short maVariableShort = 2568;
+//			byte maVariableByte = 25;
+//			short maVariableShort = 2568;
 			int maVariableInt1 = 21145;
-			long maVariableLong = 123456789123L;
+//			long maVariableLong = 123456789123L;
 			System.out.println(maVariableInt1);
 		}
-		float maVariableFloat = 2.5F;
-		double maVariableDouble = 12.36457;
+//		float maVariableFloat = 2.5F;
+//		double maVariableDouble = 12.36457;
 
-		char maVariableChar = 'c';
-
-		boolean maVariableBool = true;
+//		char maVariableChar = 'c';
+//
+//		boolean maVariableBool = true;
 
 		String maChaine = "mon texte";
 		String maChaine2 = " est super";
