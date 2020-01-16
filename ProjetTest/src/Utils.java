@@ -23,7 +23,7 @@ public class Utils {
 		System.out.println("veuillez saisirle rayon :");
 		float rayon = sc.nextFloat();
 		float surface = (float) ((float) Math.pow(rayon, 2)*Math.PI);
-		
+		sc.close();
 		return surface;
 	}
 }
