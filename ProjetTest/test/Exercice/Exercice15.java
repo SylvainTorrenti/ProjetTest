@@ -6,7 +6,7 @@ public class Exercice15 {
 
 	public static void main(String[] args) {
 
-		float sommeInitiale, interet, anée, sommeFinaleAvecInteretSimple, sommeFinaleAvecInteretComposé, tmpSF, tmpSF1;
+		float sommeInitiale, interet, année, sommeFinaleAvecInteretSimple, sommeFinaleAvecInteretComposé, tmpSF, tmpSF1;
 		tmpSF = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Veuillez inserer la somme initiale");
@@ -14,7 +14,8 @@ public class Exercice15 {
 		System.out.println("Veuillez inserer les interets");
 		interet = sc.nextFloat();
 		System.out.println("Veuillez inserer le nombre d'année");
-		float année = sc.nextFloat();
+		année = sc.nextFloat();
+		sc.close();
 
 		sommeFinaleAvecInteretSimple = sommeInitiale * (1 + année * interet);
 		System.out.println("La somme finale avec interet simple est de " + sommeFinaleAvecInteretSimple);

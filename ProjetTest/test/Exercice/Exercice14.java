@@ -1,4 +1,5 @@
 package Exercice;
+
 import java.util.Scanner;
 
 public class Exercice14 {
@@ -10,7 +11,7 @@ public class Exercice14 {
 		a = sc.nextFloat();
 		System.out.println("Ajoutez un nombre b");
 		b = sc.nextFloat();
-
+		sc.close();
 		tmp = a;
 		a = b;
 		b = tmp;
