@@ -7,6 +7,7 @@ public class Palindrome {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+
 		System.out.println("veuillez saisir un mot.");
 		String nom = sc.nextLine();
 		sc.close();
@@ -16,7 +17,8 @@ public class Palindrome {
 			System.out.println(nom + " est un palindrome.");
 		} else {
 			System.out.println(nom + " n'est pas un palindrome.");
-		}
-	}
 
+		}
+
+	}
 }
