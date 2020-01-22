@@ -10,11 +10,7 @@ import java.util.Scanner;
  * @since 22/01/20
  */
 public class GenerateurIdentifiants {
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
+	static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 

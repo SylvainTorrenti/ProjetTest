@@ -12,15 +12,12 @@ import java.util.Scanner;
  */
 public class NoteCondition {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Inserez votre note:");
 		float note = sc.nextFloat();
 		if (note < 8) {
-			
+
 			System.out.println("Vous êtes ajourné!");
 
 		} else {

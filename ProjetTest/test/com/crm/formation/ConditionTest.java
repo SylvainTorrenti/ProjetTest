@@ -10,9 +10,6 @@ package com.crm.formation;
  */
 public class ConditionTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 //		boolean estVrai = true;
 //		if (estVrai == true) {

@@ -12,9 +12,6 @@ import java.util.Scanner;
  */
 public class LectureClavierTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("veuillez saisir un mot :(café, thé ou verveine)");

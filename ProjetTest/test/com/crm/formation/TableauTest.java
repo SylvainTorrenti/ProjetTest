@@ -10,16 +10,13 @@ package com.crm.formation;
  */
 public class TableauTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-	int[] tabInt;
-	tabInt = new int[5];
-	
-	int []tabInt1=new int[5];
-	
-	tabInt1[0]=5;
+		int[] tabInt;
+		tabInt = new int[5];
+
+		int[] tabInt1 = new int[5];
+
+		tabInt1[0] = 5;
 
 		int tabInt2[] = { 1, 2, 3, 4, 5 };
 		System.out.println(tabInt2[4]);

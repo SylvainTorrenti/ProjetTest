@@ -10,9 +10,6 @@ package com.crm.formation;
  */
 public class OperationTernaireTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int nb1 = 5;
 		int nb2 = 3;

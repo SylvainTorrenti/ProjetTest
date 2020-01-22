@@ -2,6 +2,7 @@
  * 
  */
 package com.crm.api;
+
 /**
  * @author Sylvain Torrenti
  * @version 1.0
@@ -10,12 +11,8 @@ package com.crm.api;
 
 import java.util.Scanner;
 
-
 public class Identifiant {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Entrez votre login:");
