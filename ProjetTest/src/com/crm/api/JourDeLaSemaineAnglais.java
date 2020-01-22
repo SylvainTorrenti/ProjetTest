@@ -1,4 +1,5 @@
 package com.crm.api;
+
 /**
  * @author Sylvain Torrenti
  * @version 1.0
@@ -36,13 +37,15 @@ public class JourDeLaSemaineAnglais {
 //			System.out.println("Erreur");
 //		}
 //		
-		for (int i=0;i<jSemaine.length;i++) {
+		for (int i = 0; i < jSemaine.length; i++) {
 			if (jSemaine[i].equals(jour)) {
 				System.out.println(jSemaineA[i]);
-				return;
+				break;
+			}
+			
+			if (i == jSemaine.length-1) {
+				System.out.println("Erreur");
 			}
 		}
-
 	}
-
 }
