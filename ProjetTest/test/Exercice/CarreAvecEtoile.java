@@ -6,7 +6,7 @@ package Exercice;
  */
 import java.util.Scanner;
 
-public class CarréAvecEtoile {
+public class CarreAvecEtoile {
 	public static void main(String[] args) {
 		int longueur, i, j;
 		Scanner sc = new Scanner(System.in);

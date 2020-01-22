@@ -7,7 +7,7 @@ package com.crm.api;
 
 import java.util.Scanner;
 
-public class Dé {
+public class de {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
