@@ -1,5 +1,9 @@
 package exercicePerso;
-
+/**
+ * @author Sylvain Torrenti
+ * @version 1.0
+ * @since 22/01/20
+ */
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

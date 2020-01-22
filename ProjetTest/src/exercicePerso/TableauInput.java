@@ -7,7 +7,8 @@ import java.util.Scanner;
 
 /**
  * @author Sylvain Torrenti
- *
+ * @version 1.0
+ * @since 22/01/20
  */
 public class TableauInput {
 

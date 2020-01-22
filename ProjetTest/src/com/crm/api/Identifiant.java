@@ -2,13 +2,15 @@
  * 
  */
 package com.crm.api;
+/**
+ * @author Sylvain Torrenti
+ * @version 1.0
+ * @since 22/01/20
+ */
 
 import java.util.Scanner;
 
-/**
- * @author CRM
- *
- */
+
 public class Identifiant {
 
 	/**
