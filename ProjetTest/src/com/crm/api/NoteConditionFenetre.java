@@ -1,4 +1,5 @@
 package com.crm.api;
+
 /**
  * @author Sylvain Torrenti
  * @version 1.0
@@ -39,41 +40,34 @@ public class NoteConditionFenetre extends JFrame implements ActionListener {
 			test.setTitle("Resultat");
 
 		} else {
-			if (note < 10) {
+			if (note < 12) {
 				NoteConditionFenetre test = new NoteConditionFenetre();
 				test.setVisible(true);
 				test.setSize(300, 80);
 				test.setTitle("Resultat avec mention");
 				label.setText("Admis");
 			} else {
-				if (note < 12) {
+				if (note < 14) {
 					NoteConditionFenetre test = new NoteConditionFenetre();
 					test.setVisible(true);
 					test.setSize(300, 80);
 					test.setTitle("Resultat avec mention");
-					label.setText("Admis avec la mention B");
+					label.setText("Admis avec la mention AB");
 				} else {
-					if (note < 14) {
+					if (note < 16) {
 						NoteConditionFenetre test = new NoteConditionFenetre();
 						test.setVisible(true);
 						test.setSize(300, 80);
 						test.setTitle("Resultat avec mention");
-						label.setText("Vous êtes admis avec la mention AB");
+						label.setText("Vous êtes admis avec la mention B");
+
 					} else {
-						if (note < 16) {
+						if (note >= 16) {
 							NoteConditionFenetre test = new NoteConditionFenetre();
 							test.setVisible(true);
 							test.setSize(300, 80);
 							test.setTitle("Resultat avec mention");
-							label.setText("Vous êtes admis avec la mention B");
-						} else {
-							if (note >= 16) {
-								NoteConditionFenetre test = new NoteConditionFenetre();
-								test.setVisible(true);
-								test.setSize(300, 80);
-								test.setTitle("Resultat avec mention");
-								label.setText("Vous êtes admis avec la mention TB");
-							}
+							label.setText("Vous êtes admis avec la mention TB");
 						}
 					}
 				}
