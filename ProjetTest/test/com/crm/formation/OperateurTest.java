@@ -3,7 +3,7 @@ package com.crm.formation;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
- * @param operateur
+ * operateur
  * 			Differentes manipulation pour les operateurs.
  */
 public class OperateurTest {

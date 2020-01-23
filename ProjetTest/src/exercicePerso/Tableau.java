@@ -3,7 +3,7 @@ package exercicePerso;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
- * @param tableau
+ * tableau
  * 			un tableau simple.
  */
 public class Tableau {

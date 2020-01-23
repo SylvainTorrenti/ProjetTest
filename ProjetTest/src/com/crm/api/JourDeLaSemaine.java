@@ -3,7 +3,7 @@ package com.crm.api;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
- * @param jour de la semaine
+ * jour de la semaine
  * 			Affiche un tableau des jours de la semaines en français.
  */
 

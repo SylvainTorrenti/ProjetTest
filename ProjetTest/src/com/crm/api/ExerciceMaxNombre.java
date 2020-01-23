@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
- * @param Nombre max
+ *  nombre max
  * 			Definie parmis 3 nombres lequel est le plus haut.
  */
 public class ExerciceMaxNombre {

@@ -4,8 +4,9 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
- * @param mdp
- * 			Votre mot de passe en fonction de votre nom et prenom
+ * 
+ * votre mot de passe en fonction de votre nom et prenom
+ * 			
  */
 public class GenerateurIdentifiants {
 	static void main(String[] args) {

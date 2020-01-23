@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
- * @param Tableau avec input
+ * Tableau avec input
  * 			Test de créé un tableau avec un input.
  */
 public class TableauInput {

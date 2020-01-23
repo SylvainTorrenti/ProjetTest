@@ -6,7 +6,7 @@
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 17/12/19
- * @param hello world
+ * hello world
  * 			Test du hello world
  */
 public class HelloWorld {

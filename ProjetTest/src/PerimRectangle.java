@@ -3,7 +3,7 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
- * @param Perimetre rectangle
+ * Perimetre rectangle
  * 			Le perimetre du rectangle en fonction de la longueur et de la largeur
  */
 public class PerimRectangle {
