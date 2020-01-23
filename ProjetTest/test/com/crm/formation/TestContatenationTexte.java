@@ -3,6 +3,8 @@ package com.crm.formation;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param contatenation
+ * 		Test de la contenation de texte.
  */
 public class TestContatenationTexte {
 

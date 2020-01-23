@@ -3,6 +3,8 @@ package Exercice;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param triangle
+ * 			Fabrication d'une triangle avec des *.
  */
 import java.util.Scanner;
 

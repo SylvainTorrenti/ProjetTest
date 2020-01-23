@@ -3,6 +3,8 @@ package Exercice;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param reduction
+ * reduction train selon l'age bis.
  */
 import java.util.Scanner;
 

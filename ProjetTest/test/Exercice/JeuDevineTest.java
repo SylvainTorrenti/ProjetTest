@@ -3,6 +3,8 @@ package Exercice;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Jeu
+ * 		Deviner un nombre entre 0 - 100.
  */
 import java.util.Scanner;
 

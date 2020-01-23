@@ -3,6 +3,8 @@ package exercicePerso;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param input
+ * 			Test des input avec fenêtre.
  */
 import java.awt.*;
 import java.awt.event.*;

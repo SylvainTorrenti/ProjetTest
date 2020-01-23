@@ -9,6 +9,8 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Reduction
+ * Affichez la réduction selon l'age.
  */
 public class ReductionTrainIf {
 

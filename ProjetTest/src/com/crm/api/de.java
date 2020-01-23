@@ -3,6 +3,8 @@ package com.crm.api;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param de
+ * 		Jeu de dé pour 2 joueurs.
  */
 
 import java.util.Scanner;
@@ -13,7 +15,7 @@ public class de {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Entrez le nom du premier joueur:");
 		String joueur1 = sc.nextLine();
-		System.out.println("Entrez le nom du deuxiéme joueur:");
+		System.out.println("Entrez le nom du deuxième joueur:");
 		String joueur2 = sc.nextLine();
 		sc.close();
 		int a1, a2;

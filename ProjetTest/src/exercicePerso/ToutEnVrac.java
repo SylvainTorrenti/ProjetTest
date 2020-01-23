@@ -9,6 +9,8 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Vrac
+ * 		Là où je met des trucs en vracs sans Ctrl-V
  */
 public class ToutEnVrac {
 

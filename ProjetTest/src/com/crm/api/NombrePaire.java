@@ -9,6 +9,8 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Nombre pair
+ * 			Dit si le nombre est pair ou impair.
  */
 public class NombrePaire {
 

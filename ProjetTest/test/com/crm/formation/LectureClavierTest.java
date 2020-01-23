@@ -9,6 +9,8 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Lecture
+ * 			Test de la lecture du clavier.
  */
 public class LectureClavierTest {
 

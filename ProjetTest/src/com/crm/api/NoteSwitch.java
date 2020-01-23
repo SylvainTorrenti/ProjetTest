@@ -3,6 +3,8 @@ package com.crm.api;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param switch
+ * 			Donne une fourchette de note en fonction de la mention.
  */
 import java.util.Scanner;
 

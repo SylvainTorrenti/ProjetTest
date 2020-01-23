@@ -3,6 +3,8 @@ package com.crm.formation;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param conversion
+ * 			Differentes convertion.
  */
 public class ConversionTest {
 

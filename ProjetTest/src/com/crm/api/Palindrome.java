@@ -3,6 +3,8 @@ package com.crm.api;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param palindrome
+ * 		definit si un mot est un palindrome ou pas.
  */
 
 import java.util.Scanner;

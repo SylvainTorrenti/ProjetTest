@@ -3,6 +3,8 @@ package exercicePerso;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param pyramide
+ * 			création d'une pyramide.
  */
 import java.util.Scanner;
 

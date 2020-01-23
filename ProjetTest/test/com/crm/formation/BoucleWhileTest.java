@@ -3,6 +3,8 @@ package com.crm.formation;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param While
+ * 		Test de la boucle while.
  */
 public class BoucleWhileTest {
 

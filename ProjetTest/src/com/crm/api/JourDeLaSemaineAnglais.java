@@ -4,6 +4,8 @@ package com.crm.api;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Jour de la semaine
+ * 			Donne le jour de la semaine en anglais correspondant au français.
  */
 
 import java.util.Scanner;

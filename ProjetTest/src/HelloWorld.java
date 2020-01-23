@@ -6,15 +6,13 @@
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 17/12/19
+ * @param hello world
+ * 			Test du hello world
  */
 public class HelloWorld {
 
-	/**
-	 * @author Dev2
-	 * @param args paramètres du programme
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		String nom = "Sylvain";
 		String ajout = " a réussi !!!";
 		String fin = "encore une fois";

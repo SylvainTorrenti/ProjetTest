@@ -3,6 +3,8 @@ package exercicePerso;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param fenêtre avec action
+ * 		Mis en place d'un changement en appuyant sur le bouton.
  */
 import java.awt.*;
 import java.awt.event.ActionEvent;

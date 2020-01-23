@@ -3,6 +3,8 @@ package Exercice;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Exercice 2 AFPA
+ * 			Exercice2 avec For.
  */
 import java.util.Scanner;
 

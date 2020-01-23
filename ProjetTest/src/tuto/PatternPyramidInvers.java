@@ -3,6 +3,8 @@ package tuto;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param triangle
+ * 		Tuto pour triangle inverse.
  */
 import java.util.Scanner;
 

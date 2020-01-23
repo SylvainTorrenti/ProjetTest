@@ -3,6 +3,8 @@ package tuto;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param tableau
+ * 		Tuto d'un tableau.
  */
 import java.util.Scanner;
 

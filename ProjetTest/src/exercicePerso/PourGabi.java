@@ -3,6 +3,8 @@ package exercicePerso;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param fenêtre
+ * 		création d'un programme avec fenêtre perso.
  */
 import java.awt.*;
 import java.awt.event.ActionEvent;

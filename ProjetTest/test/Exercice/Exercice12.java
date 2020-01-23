@@ -4,6 +4,7 @@ import java.util.Scanner;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Exercice 12
  */
 public class Exercice12 {
 

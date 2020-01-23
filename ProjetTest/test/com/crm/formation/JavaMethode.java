@@ -3,6 +3,8 @@ package com.crm.formation;
  * @author Sylvain Torrenti
  * @version 1.0
  * @since 22/01/20
+ * @param Methode
+ * 			Creation et utilisation d'une méthode.
  */
 public class JavaMethode {
 
