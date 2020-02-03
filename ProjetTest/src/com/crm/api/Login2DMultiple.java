@@ -24,7 +24,7 @@ public class Login2DMultiple {
 				String mdp1 = login[1][i];
 				System.out.println("Veuillez saisir votre mot de passe:");
 				String mdp = sc.nextLine();
-
+//				Veriffication mdp avec enregistrement
 				if (mdp.equals(mdp1)) {
 
 					System.out.println("Connexion reussie!");
