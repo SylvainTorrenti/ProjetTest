@@ -14,9 +14,6 @@ import com.crm.bo.Personne;
  */
 public class PersonneApp {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Personne pers = new Personne();
 //		String surnom = "eee";  Faire trés TRES TRES attention!!!!!!!!!!!!!!!!!

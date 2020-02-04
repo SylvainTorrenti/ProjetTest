@@ -22,34 +22,35 @@ public class Personne {
 	protected Date dateNaissance;
 
 //	Méthodes	
-	public String getNom() {
-		return nom;
-	}
+	
 
-//	méthode qui modifie la valeur de "nom"
-	public void setNom(String n) {
-		nom = n;
-	}
+	public void afficherDetail() {
+		System.out.println(prenom + " " + nom + "(" + surnom + ")");
 
-	public String getPrenom() {
-		return prenom;
-	}
-
-	public void setPrenom(String n) {
-		prenom = n;
 	}
 
 	public String getSurnom() {
 		return surnom;
 	}
 
-	public void setSurnom(String n) {
-		surnom = n;
+	public void setSurnom(String surnom) {
+		this.surnom = surnom;
 	}
 
-	public void afficherDetail() {
-		System.out.println(prenom + " " + nom + "(" + surnom + ")");
+	public String getNom() {
+		return nom;
+	}
 
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
 	}
 
 	public void date() {
