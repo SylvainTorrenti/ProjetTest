@@ -3,6 +3,8 @@
  */
 package com.crm.bo;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 /**
@@ -16,6 +18,7 @@ public class Personne {
 	public String surnom;
 	private String nom;
 	private String prenom;
+	private String detail;
 	protected Date dateNaissance;
 
 //	Méthodes	
@@ -36,4 +39,23 @@ public class Personne {
 		prenom = n;
 	}
 
+	public String getSurnom() {
+		return surnom;
+	}
+
+	public void setSurnom(String n) {
+		surnom = n;
+	}
+
+	public void afficherDetail() {
+		System.out.println(prenom + " " + nom + "(" + surnom + ")");
+
+	}
+
+	public void date() {
+		DateTimeFormatter date = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+		LocalDateTime maintenant = LocalDateTime.now();
+		System.out.println("La date est : " + date.format(maintenant));
+
+	}
 }

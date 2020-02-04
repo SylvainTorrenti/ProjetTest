@@ -3,6 +3,8 @@
  */
 package com.crm.boapp;
 
+import java.util.Scanner;
+
 import com.crm.bo.Personne;
 
 /**
@@ -17,11 +19,21 @@ public class PersonneApp {
 	 */
 	public static void main(String[] args) {
 		Personne pers = new Personne();
-		pers.surnom = "xXxD4RkLe0NaxXx";
-		pers.setNom("Torrenti");
+//		String surnom = "eee";  Faire trés TRES TRES attention!!!!!!!!!!!!!!!!!
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Veuillez saisir votre surnom :");
+		pers.surnom = sc.nextLine();
 
-		pers.setPrenom("Sylvain");
-		System.out.println("Vous êtes avec " + pers.getPrenom() + " " + pers.getNom() + " (" + pers.surnom + ")");
+		System.out.println("Veuillez saisir votre nom :");
+
+		pers.setNom(sc.nextLine());
+
+		System.out.println("Veuillez saisir votre prenom :");
+		pers.setPrenom(sc.nextLine());
+		sc.close();
+//		System.out.println("Vous êtes avec " + pers.getPrenom() + " " + pers.getNom() + " (" + pers.surnom + ")");
+		pers.afficherDetail();
+		pers.date();
 
 	}
 
