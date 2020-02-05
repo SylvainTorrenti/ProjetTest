@@ -4,26 +4,33 @@
 package com.crm.boapp;
 
 import java.util.Scanner;
-
 import com.crm.bo.Rectangle;
 
 /**
- * @author Sylvain Torrenti
- * @version 1.0.0
- * @since 5 févr. 2020
+ * @author CRM
+ *
  */
 public class RectangleApp {
-
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		Rectangle rectangle = new Rectangle();
+		Rectangle rect1 = new Rectangle();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Veuillez saisir la largeur du rectangle:");
-		rectangle.setLargeur(sc.nextFloat());
-		System.out.println("Veuillez saisir le longueur du rectangle:");
-		rectangle.setLongueur(sc.nextFloat());
-		rectangle.calculSurface();
-		rectangle.calculPerim();
+		System.out.println("Veuillez saisir la largeur du rectangle :");
+		rect1.setLargeur(sc.nextFloat());
+		System.out.println("Veuillez saisir la longueur du rectangle :");
+		rect1.setLongueur(sc.nextFloat());
+		rect1.perimetreRectangle();
+		rect1.surfaceRectangle();
+		Rectangle rect2 = new Rectangle();
+		System.out.println("Veuillez saisir la largeur du rectangle :");
+		rect2.setLargeur(sc.nextFloat());
+		System.out.println("Veuillez saisir la longueur du rectangle :");
+		rect2.setLongueur(sc.nextFloat());
 		sc.close();
+		rect2.perimetreRectangle();
+		rect2.surfaceRectangle();
+		rect1.compareRectangle(rect2);
 	}
-
 }

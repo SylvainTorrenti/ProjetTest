@@ -46,7 +46,16 @@ public class Point {
 
 	public void afficherDetail(int i) {
 
-		System.out.println("L'abscisse du point " + (i + 1) + " est de " + abscisseA + " l'ordonnée est de " + ordonneeA);
+		System.out
+				.println("L'abscisse du point " + (i + 1) + " est de " + abscisseA + " l'ordonnée est de " + ordonneeA);
+	}
+
+	public void pointA() {
+		System.out.println("le point A se trouve en : {" + abscisseA + ", " + ordonneeA + "}");
+	}
+
+	public void pointB() {
+		System.out.println("le point B se trouve en : {" + abscisseB + ", " + ordonneeB + "}");
 	}
 
 	public void calculDistance() {

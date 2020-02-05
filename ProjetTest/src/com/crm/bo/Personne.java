@@ -18,17 +18,22 @@ public class Personne {
 	public String surnom;
 	private String nom;
 	private String prenom;
-	private String detail;
 	protected Date dateNaissance;
 
-//	Méthodes	
+//	Constructeurs
+	public Personne() {
+		nom = "";
+		prenom = "";
+		surnom = "";
+		System.out.println("Construction d'une objet personne (sans param)");
+	}
 	
-
-	public void afficherDetail() {
-		System.out.println(prenom + " " + nom + "(" + surnom + ")");
-
+	public Personne(String prenom, String nom) {
+		this.prenom = prenom;
+		this.nom = nom;
 	}
 
+//	getter setter
 	public String getSurnom() {
 		return surnom;
 	}
@@ -51,6 +56,13 @@ public class Personne {
 
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
+	}
+
+//	Méthodes	
+
+	public void afficherDetail() {
+		System.out.println(prenom + " " + nom + "(" + surnom + ")");
+
 	}
 
 	public void date() {
