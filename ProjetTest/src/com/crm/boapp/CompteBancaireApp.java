@@ -17,15 +17,11 @@ class CompteBancaireApp {
 	public static void main(String[] args) {
 		CompteBancaire cb = new CompteBancaire();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Veuillez saisir le numero du compte :");
-		cb.setNumeroCompte(sc.nextInt());
+		CompteBancaire.creerCompte();
 		System.out.println("Veuillez saisir le solde :");
-		cb.setSolde(sc.nextFloat());
-
+		cb.setSolde(sc.nextInt());
 		cb.retrait();
-
 		cb.depot();
 		
 	}
-
 }
