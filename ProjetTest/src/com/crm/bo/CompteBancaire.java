@@ -15,7 +15,7 @@ public class CompteBancaire {
 	private int solde;
 	private char reponse;
 	private static char reponse2;
-	private int DECOUVERT = -150;
+	final private int DECOUVERT = -150;
 
 	public int getSolde() {
 		return solde;
